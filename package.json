@@ -1,6 +1,6 @@
 {
-  "name": "nodemon",
-  "version": "1.0.2",
+  "name": "@kadabra/nodemon",
+  "version": "1.0.3",
   "author": {
     "name": "Patrick Keenan",
     "url": "http://github.com/sirberus"
@@ -38,8 +38,7 @@
     "web": "node web",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "prepush": "npm run lint",
-    "killall": "ps auxww | grep node | grep -v grep | awk '{ print $2 }' | xargs kill -9",
-    "postinstall": "node bin/postinstall || exit 0"
+    "killall": "ps auxww | grep node | grep -v grep | awk '{ print $2 }' | xargs kill -9"
   },
   "devDependencies": {
     "@commitlint/cli": "^3.1.3",
