@@ -1,9 +1,9 @@
 {
   "name": "nodemon",
-  "homepage": "http://nodemon.io",
+  "version": "1.0.2",
   "author": {
-    "name": "Remy Sharp",
-    "url": "http://github.com/remy"
+    "name": "Patrick Keenan",
+    "url": "http://github.com/sirberus"
   },
   "bin": {
     "nodemon": "./bin/nodemon.js"
@@ -65,6 +65,5 @@
     "touch": "^3.1.0",
     "undefsafe": "^2.0.2",
     "update-notifier": "^2.3.0"
-  },
-  "version": "0.0.0-development"
+  }
 }
