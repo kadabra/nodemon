@@ -1,12 +1,12 @@
 {
   "name": "@kadabra/nodemon",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "Patrick Keenan",
     "url": "http://github.com/sirberus"
   },
   "bin": {
-    "nodemon": "./bin/kadabra-nodemon.js"
+    "kadabra-nodemon": "./bin/kadabra-nodemon.js"
   },
   "engines": {
     "node": ">=4"
